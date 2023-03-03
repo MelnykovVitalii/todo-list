@@ -254,6 +254,7 @@
 }
 .todo-list__item .item__icons .icon-delete {
   color: #f44336;
+  margin-left: 15px;
   display: inline-block;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
