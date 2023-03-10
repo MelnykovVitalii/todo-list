@@ -32,7 +32,7 @@
     z-index: 10;
   }
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -54,7 +54,7 @@
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     font-size: 18px;
     transition: 0.6s all ease-in;
   }
@@ -74,7 +74,7 @@
 }
 .title {
   color: #ffffff;
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-weight: bold;
   // text-align: center;
 }
@@ -89,14 +89,14 @@
   }
 
   &__input {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     font-size: 18px;
     color: #ffffff;
     min-width: 120px;
     flex: 1 1 auto;
     padding: 11px 5px;
     background-color: transparent;
-    border: 1px solid transparent;
+    border: 1px solid #ffffff;
     border-radius: 3px;
     margin-right: 3px;
     transition: all 0.3s ease;
@@ -106,7 +106,7 @@
     }
     &:focus {
       outline: none;
-      border: 1px solid #ffffff;
+      border: 1px solid #4caf50;
     }
   }
 
@@ -114,7 +114,7 @@
 
   &__btn {
     position: relative;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     border: none;
@@ -130,7 +130,7 @@
     transition: all 0.5s ease;
     z-index: 14;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       background-color: rgba($color: #4caf50, $alpha: 0.8);
@@ -141,7 +141,7 @@
       transition: all 0.5s ease;
     }
     &::after {
-      content: 'add';
+      content: "add";
       position: absolute;
       top: 50%;
       left: 50%;
@@ -191,7 +191,7 @@
         cursor: pointer;
         transition: all 0.3s ease-out;
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           top: 1px;
           left: 0;
@@ -208,7 +208,7 @@
     }
     &__name {
       flex: 1 1 auto;
-      font-family: 'Roboto Slab', sans-serif;
+      font-family: "Roboto Slab", sans-serif;
       font-size: 18px;
       padding: 0px 10px;
       word-break: break-word;
